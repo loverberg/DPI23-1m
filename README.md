@@ -2,7 +2,9 @@
 the repository was created for cothe repository was created for collaboration within the framework of a practical task on the discipline "NoSQL databases" of the Financial University
 
 Задание на зачет по дисциплине «Нереляционные базы данных»
+
 Создайте базу данных MongoDB для хранения информации о фильмах и сериалах видеосервиса. Документ базы данных должен иметь следующую структуру: 
+
     • _id, 
     • title - наименование, 
     • category – категория (короткометражка, фильм, сериал),
@@ -13,7 +15,10 @@ the repository was created for cothe repository was created for collaboration wi
     • director – режиссер (режиссеры), 
     • actors {name, role} 
     • rating – рейтинг (0-10)
+    
+    
 Выполните следующие запросы к БД:
+
     1. Выведите наименование фильма, имена режиссеров и актеров.
     2. Напишите запрос, выводящий наименования российских сериалов с рейтингом больше 8.
     3. Выведите наименования фильмов жанра «комедия» или «детектив», выпущенные во Франции.
